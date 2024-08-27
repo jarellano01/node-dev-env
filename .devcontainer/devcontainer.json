@@ -7,7 +7,14 @@
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	"features": {
+		"docker-in-docker": {
+			"version": "latest"
+		},
+		"ghcr.io/guiyomh/features/vim": {
+			"version": "latest"
+		}
+	},
 
 	// Configure tool-specific properties.
 	"customizations": {
