@@ -18,8 +18,8 @@
 	"mounts": [
 		"source=${localEnv:HOME}/.ssh,target=/home/node/.ssh,type=bind,consistency=cached"
 	],
-	"workspaceFolder": "/home/node/setup",
-	"workspaceMount": "source=${localWorkspaceFolder},target=/home/node/setup,type=bind",
+	// "workspaceFolder": "/home/node/setup",
+	// "workspaceMount": "source=${localWorkspaceFolder},target=/home/node/setup,type=bind",
 
 	// Configure tool-specific properties.
 	"customizations": {
